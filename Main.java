@@ -165,8 +165,9 @@ class Main {
 
   public static void main(String[] args) {  
   Main Account1 = new Main(1234, 3000, 500);
-
+  //pin number is set
   Account1.setPin(2468);
+  //enter pin begins the program
   Account1.enterPin();
   }
 }
